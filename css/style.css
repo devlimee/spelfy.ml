@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: #86e404;
+    color: #00B4DB;
 }
 
 a:hover,
@@ -39,7 +39,7 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #86e404;
+    color: #10bbeb;
 }
 
 h5 {
@@ -59,7 +59,7 @@ p.lead {
 }
 
 .text-primary {
-    color: #86e404 !important;
+    color: #10bbeb !important;
 	font-family: Impact, Charcoal, sans-serif;
 }
 
@@ -81,10 +81,10 @@ p.lead {
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #212529 0%, #35f70e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #86e404 0%, #35f70e 100%);
-    background-image: -ms-linear-gradient( 122deg, #86e404 0%, #35f70e 100%);
-    background-image: linear-gradient( 122deg, #86e404 0%, #35f70e 100%);
+    background-image: -moz-linear-gradient( 122deg, #212529 0%, #00B4DB 100%);
+    background-image: -webkit-linear-gradient( 122deg, #10bbeb 0%, #00B4DB 100%);
+    background-image: -ms-linear-gradient( 122deg, #10bbeb 0%, #00B4DB 100%);
+    background-image: linear-gradient( 122deg, #10bbeb 0%, #00B4DB 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -97,7 +97,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #54f20c 0%, #86e404 100%);
+    background-image: linear-gradient( 122deg, #00B4DB 0%, #0083B0 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #1c1a1a;
 }
@@ -161,10 +161,10 @@ p.lead {
 
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
-    background-color: rgb(220 227 91);
-    background: -moz-linear-gradient(135deg, rgb(177, 239, 4) 0%, rgb(69 182 73) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(69 182 73) 0%, rgb(177, 239, 4) 100%);
-    background: linear-gradient(135deg, rgb(69 182 73) 0%, rgb(177, 239, 4) 100%);
+    background-color: rgb(44, 161, 201);
+    background: -moz-linear-gradient(135deg, rgb(0, 180, 219) 0%, rgb(0, 131, 176) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(0, 131, 1763) 0%, rgb(0, 180, 219) 100%);
+    background: linear-gradient(135deg, rgb(0, 131, 176) 0%, rgb(0, 180, 219) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -186,7 +186,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #86e404;
+        border-bottom: 2px solid #10bbeb;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -212,13 +212,13 @@ header {
 }
 
 .bg-gradient {
-    background: url("https://cdn.discordapp.com/attachments/580710794690297876/592270228851916821/jokerplayinvitebg.png") no-repeat;
+    background: url("https://cdn.discordapp.com/attachments/580710794690297876/596674683118551047/spelfywebBG2.png") no-repeat;
     background-size: 100%;
     height: calc(25px + 100vW / 2.2);
 }
 
 .bg2 {
-	background: url("https://cdn.discordapp.com/attachments/580710794690297876/592327055484387338/parancsok.png") no-repeat;
+	background: url("https://cdn.discordapp.com/attachments/580710794690297876/596664790114500609/parancsok.png") no-repeat;
     height: calc(25px + 100vW / 2.2);
 }
 	
@@ -253,9 +253,9 @@ header {
 
 .gradient-fill:before {
     color: #0cf43e;
-    background: -moz-linear-gradient(top, #86e404 0%, #0cf43e 100%);
-    background: -webkit-linear-gradient(top, #86e404 0%, #0cf43e 100%);
-    background: linear-gradient(to bottom, #86e404 0%, #0cf43e 100%);
+    background: -moz-linear-gradient(top, #00B4DB 0%, #0083B0 100%);
+    background: -webkit-linear-gradient(top, #00B4DB 0%, #0083B0 100%);
+    background: linear-gradient(to bottom, #00B4DB 0%, #0083B0 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -282,9 +282,9 @@ header {
     position: absolute;
     width: 3px;
     color: #66cc5f;
-    background: -moz-linear-gradient(top, #86e404 0%, #16ed07 100%);
-    background: -webkit-linear-gradient(top, #86e404 0%, #16ed07 100%);
-    background: linear-gradient(to bottom, #86e404 0%, #16ed07 100%);
+    background: -moz-linear-gradient(top, #00B4DB 0%, #0083B0 100%);
+    background: -webkit-linear-gradient(top, #00B4DB 0%, #0083B0 100%);
+    background: linear-gradient(to bottom, #00B4DB 0%, #0083B0 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -425,7 +425,7 @@ header {
 }
 
 .blockquote {
-    color: #34d84c;
+    color: #10bbeb;
     font-weight: 300;
 	margin-bottom: 3rem;
 }
@@ -463,11 +463,11 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #86e404;
+    background: #10bbeb;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #86e404;
+    background: #10bbeb;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -500,14 +500,13 @@ header {
 }
 
 .card.pricing {
-    border: 3px solid #86e404 ;
+    border: 3px solid #10bbeb;
 }
 
 .card.pricing.popular {
     border-top-width: 3px;
-    border-color: #86e404 #35f70e #86e404;
-    box-shadow: 0px 12px 59px 0px rgba(134, 228, 4, 0.11);
-    color: #86e404;
+    border-color: #10bbeb #10bbeb #10bbeb;
+    color: #10bbeb;
 }
 
 
@@ -522,7 +521,7 @@ header {
     display: block;
     font-size: 45px;
     font-weight: 300;
-    color: #86e404;
+    color: #10bbeb;
 	font-family: Impact, Charcoal, sans-serif;
 }
 
@@ -619,7 +618,7 @@ header {
 #customers td, #customers th {
   border: 1px solid #333333;
   padding: 8px;
-  color: #0dd876;
+  color: #0083B0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -628,7 +627,7 @@ header {
 
 #customers th {
   text-align: center;
-  background-color: #4CAF50;
+  background-color: #00B4DB;
   color: white;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
