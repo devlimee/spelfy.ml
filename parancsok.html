@@ -3,8 +3,10 @@
 Website name : Spelfy
 Copyright : COPYRIGHT © 2019. ALL RIGHTS RESERVED. WEBSITE BY SPELFY DEV TEAM | GRAPHIC DESIGNER: MATEYO
 Author  : limee
- -->
+-->
+
 <html>
+<head>
 <title>Spelfy - Parancsok</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,15 +34,31 @@ Author  : limee
     <link rel="stylesheet" href="css/themify-icons.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link href="css/style.css" rel="stylesheet">
+<style>
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: grey; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #0e85c9; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
 </head>
 
 <audio loop autoplay>
-  <source src="assets/m.mp3" type="audio/mpeg">
+  <source src="assets/spelfy.mp3" type="audio/mpeg">
 </audio>
 
 <header class="bg2"
 </header>
-
 
 <table id="customers">
   <tr>
@@ -51,15 +69,15 @@ Author  : limee
   <tr>
     <td>s.play</td>
     <td>nincs</td>
-    <td>zenekérés (címmel, linkkel)</td>
+    <td>zene elindítása (címmel, linkkel)</td>
   </tr>
   <tr>
-    <td>s.skip ( + emoji vezérlés)</td>
+    <td>s.skip (+emoji vezérlés)</td>
     <td>adminisztrátor</td>
     <td>átugorja a lejátszás alatti zenét</td>
   </tr>
   <tr>
-    <td>s.stop ( + emoji vezérlés)</td>
+    <td>s.stop (+emoji vezérlés)</td>
     <td>adminisztrátor</td>
     <td>leállítja a lejátszás alatti zenét</td>
   </tr>
@@ -86,22 +104,22 @@ Author  : limee
   <tr>
     <td>s.kick</td>
     <td>tagok kirúgása (kick_members)</td>
-    <td>megemlített felhasználó kirúgása a szerverről</td>
+    <td>megemlített tag kirúgása a szerverről</td>
   </tr>
   <tr>
     <td>s.ban</td>
     <td>tagok kitiltása (ban_members)</td>
-    <td>megemlített felhasználó kitiltása a szerverről</td>
+    <td>megemlített tag kitiltása a szerverről</td>
   </tr>
   <tr>
     <td>s.addrole</td>
     <td>rangok kezelése (manage_roles)</td>
-    <td>rang adása egy megemlített felhasználóra</td>
+    <td>rang adása egy megemlített tagra</td>
   </tr>
   <tr>
     <td>s.removerole</td>
     <td>rangok kezelése (manage_roles)</td>
-    <td>rang elvétele egy megemlített felhasználótól</td>
+    <td>rang elvétele egy megemlített tagtól</td>
   </tr>
   <tr>
     <td>s.purge</td>
@@ -110,10 +128,20 @@ Author  : limee
   </tr>
   <tr>
     <td>s.poll</td>
-    <td>adminisztrátor</td>
+    <td>üzenetek kezelése (manage_messages)</td>
     <td>szavazás létrehozása</td>
   </tr>
   <tr>
+    <td>s.setlogchannel</td>
+    <td>adminisztrátor</td>
+    <td>log csatorna beállítása</td>
+  </tr>
+  <tr>
+    <td>s.template1</td>
+    <td>szerver tulajdonos</td>
+    <td>felépít egy szervert (csatornák, jogok)</td>
+  </tr>
+   <tr>
     <td>s.userinfo</td>
     <td>nincs</td>
     <td>egy adott felhasználó információi</td>
@@ -123,17 +151,7 @@ Author  : limee
     <td>nincs</td>
     <td>a szerver információi</td>
   </tr>
-<tr>
-    <td>s.setlogchannel</td>
-    <td>adminisztrátor</td>
-    <td>log csatorna beállítása</td>
-  </tr>
   <tr>
-    <td>s.template1</td>
-    <td>szerver tulajdonos</td>
-    <td>felépít egy szervert</td>
-  </tr>
-<tr>
     <th>Üdvözlő & Búcsúzó Rendszer</th>
     <th>Szükséges jog</th>
     <th>Leírás</th>
@@ -142,102 +160,71 @@ Author  : limee
     <td>s.setwelcome</td>
     <td>adminisztrátor</td>
     <td>egyedi üdvözlő üzenet beállítása</td>
-      </tr>
-<tr>
+  </tr>
+  <tr>
     <td>s.setleave</td>
     <td>adminisztrátor</td>
-    <td>egyedi búcsúzó üzenet beállítása</td>
-      </tr>
-<tr>
+    <td>egyedi búcsúzó üzenet beállítás</td>
+   </tr>
+   <tr>
     <td>s.setdm</td>
     <td>adminisztrátor</td>
     <td>egyedi üdvözlő privát üzenet beállítása</td>
-      </tr>
-<tr>
+   </tr>
+   <tr>
     <td>s.setwelcomechannel</td>
     <td>adminisztrátor</td>
-    <td>üdvözlő szoba beállítása</td>
-      </tr>
-<tr>
+    <td>üdvözlő csatorna beállítása</td>
+   </tr>
+   <tr>
     <td>s.setleavechannel</td>
     <td>adminisztrátor</td>
-    <td>búcsúzó szoba beállítása</td>
-      </tr>
-<tr>
+    <td>búcsúzó csatorna beállítása</td>
+   </tr>
+   <tr>
     <td>s.enable welcome</td>
     <td>adminisztrátor</td>
     <td>üdvözlő üzenet engedélyezése</td>
-      </tr>
-<tr>
+   </tr>
+   <tr>
     <td>s.enable leave</td>
     <td>adminisztrátor</td>
     <td>búcsúzó üzenet engedélyezése</td>
-      </tr>
-<tr>
+   </tr>
+   <tr>
     <td>s.enable welcomedm</td>
     <td>adminisztrátor</td>
     <td>üdvözlő privát üzenet engedélyezése</td>
-      </tr>
-<tr>
+   </tr>
+   <tr>
     <td>s.disable welcome</td>
     <td>adminisztrátor</td>
     <td>üdvözlő üzenet letiltása</td>
-      </tr>
-<tr>
+   </tr>
+   <tr>
     <td>s.disable leave</td>
     <td>adminisztrátor</td>
     <td>búcsúzó üzenet letiltása</td>
-      </tr>
-<tr>
+   </tr>
+   <tr>
     <td>s.disable welcomedm</td>
     <td>adminisztrátor</td>
     <td>üdvözlő privát üzenet letiltása</td>
-      </tr>
-<tr>
+   </tr>
+   <tr>
     <td>s.autorole</td>
     <td>adminisztrátor</td>
     <td>[beállítható] automatikus rang adás csatlakozáskor</td>
-      </tr>
-<tr>
+   </tr>
+   <tr>
     <td>s.wlconfig</td>
     <td>adminisztrátor</td>
     <td>összes konfiguráció a(z) Üdvözlő & Búcsúzó rendszerről</td>
-    </tr>
-<tr>
-<tr>
-    <th>Ellenőrző Rendszer (Verification System)</th>
+   </tr>
+   <tr>
+    <th>Twitch Parancsok</th>
     <th>Szükséges jog</th>
     <th>Leírás</th>
-  </tr>
-  <tr>
-    <td>s.verify</td>
-    <td>adminisztrátor</td>
-    <td>ellenőrző rendszer konfiguráció</td>
-</tr>
-<tr>
-    <td>s.verify on</td>
-    <td>adminisztrátor</td>
-    <td>ellenőrző rendszer bekapcsolása</td>
-</tr>
-<tr>
-    <td>s.verify off</td>
-    <td>adminisztrátor</td>
-    <td>ellenőrző rendszer kikapcsolása</td>
-</tr>
-<tr>
-    <td>s.verify init</td>
-    <td>adminisztrátor</td>
-    <td>opcionális kezdeményező csatorna beállítása</td>
-</tr>
-<tr>
-    <td>s.verify report</td>
-    <td>adminisztrátor</td>
-    <td>sikertelen üzenet osztás visszajelző csatorna beállítása</td>
-</tr>
-<tr>
-  <th>Twitch Parancsok (contributor: garton)</th>
-  <th>Szükséges jog</th>
-  <th>Leírás</th>
   </tr>
   <tr>
     <td>s.playstream</td>
@@ -247,12 +234,12 @@ Author  : limee
   <tr>
     <td>s.leavechannel</td>
     <td>nincs</td>
-    <td>twitch stream lejátszás abbahagyása</td>
+    <td>twitch stream hallgatás leállítása</td>
   </tr>
-<tr>
-  <th>Multicolor Parancsok</th>
-  <th>Szükséges jog</th>
-  <th>Leírás</th>
+  </tr>
+    <th>Multicolor Parancsok [ingyenessé fog válni]</th>
+    <th>Szükséges jog</th>
+    <th>Leírás</th>
   </tr>
   <tr>
     <td>s.multicolor</td>
@@ -269,65 +256,110 @@ Author  : limee
     <td>adminisztrátor</td>
     <td>multicolor kikapcsolása</td>
   </tr>
-  <th>Rádió rendszer</th>
-  <th>Szükséges jog</th>
-  <th>Leírás</th>
+  <tr>
+  <tr>
+    <th>Ellenőrző Rendszer (Verification System)</th>
+    <th>Szükséges jog</th>
+    <th>Leírás</th>
+  </tr>
+  <tr>
+    <td>s.verify on</td>
+    <td>adminisztrátor</td>
+    <td>ellenőrző rendszer bekapcsolása</td>
+  </tr>
+  <tr>
+    <td>s.verify off</td>
+    <td>adminisztrátor</td>
+    <td>ellenőrző rendszer kikapcsolása</td>
+  </tr>
+  <tr>
+    <td>s.verify init</td>
+    <td>adminisztrátor</td>
+    <td>opcionális kezdeményező csatorna beállítása</td>
+  </tr>
+  <tr>
+    <td>s.verify report</td>
+    <td>adminisztrátor</td>
+    <td>sikertelen üzenet osztás visszajelző csatorna beállítása</td>
+  </tr>
+  <tr>
+    <td>s.verify</td>
+    <td>adminisztrátor</td>
+    <td>összes konfiguráció a(z) ellenőrző rendszerről</td>
+  </tr>
+  <tr>
+    <th>Rádió Rendszer (Radio System)</th>
+    <th>Szükséges jog</th>
+    <th>Leírás</th>
+  </tr>
   <tr>
     <td>s.radiolist</td>
     <td>nincs</td>
-    <td>rádiók kilistázása</td>
+    <td>rádiók kilistázása (folyamatosan bővül)</td>
   </tr>
   <tr>
-    <td>s.id</td>
+    <td>s.(id) - (pl: s.retro)</td>
     <td>nincs</td>
     <td>rádió elindítása ID alapján</td>
   </tr>
-<tr>
+  <tr>
     <td>s.stopradio</td>
     <td>nincs</td>
     <td>aktuális rádió leállítása</td>
-</tr>
- <th>Economy Rendszer</th>
-  <th>Szükséges jog</th>
-  <th>Leírás</th>
-<tr>
+  </tr>
+    <th>Economy Rendszer (Economy System)</th>
+    <th>Szükséges jog</th>
+    <th>Leírás</th>
+  <tr>
     <td>s.work</td>
     <td>nincs</td>
     <td>dolgozás</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
     <td>s.crime</td>
     <td>nincs</td>
     <td>rablás</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
     <td>s.luck</td>
     <td>nincs</td>
     <td>szerencse</td>
-</tr>
-<tr>
-    <td>s.pay (fejlesztés alatt)</td>
+  </tr>
+  <tr>
+    <td>s.pay</td>
     <td>nincs</td>
-    <td>pénz utalása</td>
-</tr>	
-<tr>
-    <td>s.bal @tag</td>
+    <td>pénz utalása a megemlített tagnak</td>
+  </tr>	
+  <tr>
+    <td>s.bal</td>
     <td>nincs</td>
-    <td>egyenleg lekérdezése</td>
-</tr>	
-<tr>
+    <td>a megemlített tag egyenlegének megnézése</td>
+  </tr>	
+  <tr>
     <td>s.creditcard</td>
     <td>nincs</td>
-    <td>hitelkártya</td>
-</tr>	
-<tr>
-    <td>s.hitel <mennyiség></td>
+    <td>saját hitelkártya</td>
+  </tr>	
+  <tr>
+    <td>s.hitel</td>
     <td>nincs</td>
     <td>hitel felvétele</td>
-</tr>	
-  <th>Egyéb Parancsok</th>
-  <th>Szükséges jog</th>
-  <th>Leírás</th>
+  </tr>
+  <tr>
+    <td>s.hourly</td>
+    <td>nincs</td>
+    <td>10 ezer forint óránként</td>
+  </tr>	
+  <tr>
+    <td>s.daily</td>
+    <td>nincs</td>
+    <td>25 ezer forint naponként</td>
+  </tr>
+  <tr>  
+    <th>Egyéb Parancsok</th>
+    <th>Szükséges jog</th>
+    <th>Leírás</th>
+  </tr>	
   <tr>
     <td>s.osu</td>
     <td>nincs</td>
@@ -341,12 +373,12 @@ Author  : limee
   <tr>
     <td>s.mc</td>
     <td>nincs</td>
-    <td>minecraft egyedi teljesítmény</td>
+    <td>minecraft egyedi teljesítmény létrehozása</td>
   </tr>
   <tr>
     <td>s.coinflip</td>
     <td>nincs</td>
-    <td>fej, vagy írás</td>
+    <td>fej, vagy írás játék</td>
   </tr>
   <tr>
     <td>s.roll</td>
@@ -361,7 +393,7 @@ Author  : limee
   <tr>
     <td>s.emoji</td>
     <td>nincs</td>
-    <td>emoji-szavak</td>
+    <td>a megadott szót kiírja emojikba</td>
   </tr>
   <tr>
     <td>s.hug</td>
@@ -391,12 +423,12 @@ Author  : limee
   <tr>
     <td>s.channelinfo</td>
     <td>nincs</td>
-    <td>csatorna információi</td>
+    <td>leírt/megemlített csatorna információi</td>
   </tr>
   <tr>
     <td>s.roleinfo</td>
     <td>nincs</td>
-    <td>szerep információi</td>
+    <td>leírt/megemlített szerep információi</td>
   </tr>
   <tr>
     <td>s.say</td>
@@ -406,47 +438,49 @@ Author  : limee
   <tr>
     <td>s.cat</td>
     <td>nincs</td>
-    <td>macskás képek</td>
+    <td>macskás képek (reddit)</td>
   </tr>
   <tr>
     <td>s.dog</td>
     <td>nincs</td>
-    <td>kutyás képek</td>
+    <td>kutyás képek (reddit)</td>
   </tr>
   <tr>
     <td>s.meme</td>
     <td>nincs</td>
-    <td>memék redditről</td>
+    <td>memék (reddit)</td>
   </tr>
    <tr>
     <td>s.link</td>
     <td>nincs</td>
     <td>képernyőmegosztásos link generálása</td>
   </tr>
-   <tr>
+  <tr>
     <td>s.spam</td>
     <td>nincs</td>
     <td>szó spammelése</td>
   </tr>
-     <tr>
+  <tr>
     <td>s.embedsay</td>
     <td>nincs</td>
-    <td>a szövegedet átalakítja a bot embedbe</td>
+    <td>a megadott szöveget átalakítja a bot embedbe</td>
   </tr>
-     <tr>
+  <tr>
     <td>s.embedsaywm</td>
     <td>nincs</td>
-    <td>a szövegedet átalakítja a bot embedbe (itt nincs Spelfy-s jelzés)</td>
+    <td>a megadott szöveget átalakítja a bot embedbe (itt nincs Spelfy-s jelzés)</td>
   </tr>
-<th>NSFW</th>
-  <th>Szükséges jog</th>
-  <th>Leírás</th>
+  <tr>
+    <th>NSFW (18+)</th>
+    <th>Szükséges jog</th>
+    <th>Leírás</th>
+  </tr>	
   <tr>
     <td>s.nsfw</td>
     <td>nincs</td>
     <td>18+-os tartalom</td>
   </tr>
-<tr>
+  <tr>
     <td>s.pornhub</td>
     <td>nincs</td>
     <td>pornhub videók lekérdezése</td>
@@ -454,10 +488,10 @@ Author  : limee
 </table>
 
 <footer class="my-5 text-center">
-        <p class="mb-2"><small> <a href="https://spelfy.tk"> VISSZA A FŐOLDALRA</a></small></p>
-<p class="mb-2"><small>COPYRIGHT © 2019. ALL RIGHTS RESERVED. WEBSITE CREATED BY<a href="https://discord.gg/RkHSFpE"> SPELFY DEV TEAM</a></small></p>
-		<p class="mb-2"><small>GRAPHIC DESIGNER<a href="https://t.me/mateyo1337"> MATEYO</a></small></p>
-    </footer>
+    <p class="mb-2"><small> <a href="https://spelfy.tk"> VISSZA A FŐOLDALRA</a></small></p>
+    <p class="mb-2"><small>COPYRIGHT © 2019. ALL RIGHTS RESERVED. WEBSITE CREATED BY<a href="https://discord.gg/RkHSFpE"> SPELFY DEV TEAM</a></small></p>
+    <p class="mb-2"><small>GRAPHIC DESIGNER<a href="https://t.me/mateyo1337"> MATEYO</a></small></p>
+</footer>
 
 </body>
 </html>
