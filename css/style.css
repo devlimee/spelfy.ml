@@ -615,7 +615,7 @@ header {
 #customers td, #customers th {
   border: 1px solid #333333;
   padding: 8px;
-  color: #0083B0;
+  color: #f1c40f;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -624,7 +624,9 @@ header {
 
 #customers th {
   text-align: center;
-  background-color: #00B4DB;
+  background-color: #cca714;
   color: white;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+
