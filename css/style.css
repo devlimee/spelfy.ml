@@ -214,7 +214,7 @@ header {
 .bg-gradient {
     background: url("https://cdn.discordapp.com/attachments/580710794690297876/632267457037336626/invitebghalloween.png") no-repeat;
     background-size: 100%;
-    height: calc(24px + 100vW / 2.0);
+    height: calc(27px + 100vW / 2.0);
 }
 
 .bg2 {
