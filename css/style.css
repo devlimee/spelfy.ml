@@ -6,7 +6,7 @@ body {
 }
 
 a {
-    color: #f1c40f;
+    color: #10bbeb;
 }
 
 a:hover,
@@ -39,7 +39,7 @@ h3 {
 h4 {
     font-size: 20px;
     font-weight: 500;
-    color: #f1c40f;
+    color: #10bbeb;
 }
 
 h5 {
@@ -59,7 +59,7 @@ p.lead {
 }
 
 .text-primary {
-    color: #f1c40f !important;
+    color: #10bbeb !important;
 	font-family: Impact, Charcoal, sans-serif;
 }
 
@@ -82,9 +82,9 @@ p.lead {
 .btn-primary {
     border-radius: 3px;
     background-image: -moz-linear-gradient( 122deg, #212529 0%, #e0b91b 100%);
-    background-image: -webkit-linear-gradient( 122deg, #f1c40f 0%, #e0b91b 100%);
-    background-image: -ms-linear-gradient( 122deg, #f1c40f 0%, #e0b91b 100%);
-    background-image: linear-gradient( 122deg, #f1c40f 0%, #e0b91b 100%);
+    background-image: -webkit-linear-gradient( 122deg, #10bbeb 0%, #e0b91b 100%);
+    background-image: -ms-linear-gradient( 122deg, #10bbeb 0%, #e0b91b 100%);
+    background-image: linear-gradient( 122deg, #10bbeb 0%, #e0b91b 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -97,7 +97,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #f1c40f 0%, #f1c40f 100%);
+    background-image: linear-gradient( 122deg, #10bbeb 0%, #10bbeb 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #1c1a1a;
 }
@@ -186,7 +186,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #f1c40f;
+        border-bottom: 2px solid #10bbeb;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -252,10 +252,10 @@ header {
 }
 
 .gradient-fill:before {
-    color: #f1c40f;
-    background: -moz-linear-gradient(top, #f1c40f 0%, #f1c40f 100%);
-    background: -webkit-linear-gradient(top, #f1c40f 0%, #f1c40f 100%);
-    background: linear-gradient(to bottom, #f1c40f 0%, #f1c40f 100%);
+    color: #10bbeb;
+    background: -moz-linear-gradient(top, #10bbeb 0%, #10bbeb 100%);
+    background: -webkit-linear-gradient(top, #10bbeb 0%, #10bbeb 100%);
+    background: linear-gradient(to bottom, #10bbeb 0%, #10bbeb 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -281,10 +281,10 @@ header {
     content: "";
     position: absolute;
     width: 3px;
-    color: #f1c40f;
-    background: -moz-linear-gradient(top, #f1c40f 0%, #f1c40f 100%);
-    background: -webkit-linear-gradient(top, #f1c40f 0%, #f1c40f 100%);
-    background: linear-gradient(to bottom, #f1c40f 0%, #f1c40f 100%);
+    color: #10bbeb;
+    background: -moz-linear-gradient(top, #10bbeb 0%, #10bbeb 100%);
+    background: -webkit-linear-gradient(top, #10bbeb 0%, #10bbeb 100%);
+    background: linear-gradient(to bottom, #10bbeb 0%, #10bbeb 100%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -425,7 +425,7 @@ header {
 }
 
 .blockquote {
-    color: #f1c40f;
+    color: #10bbeb;
     font-weight: 300;
 	margin-bottom: 3rem;
 }
@@ -463,11 +463,11 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #f1c40f;
+    background: #10bbeb;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #f1c40f;
+    background: #10bbeb;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -500,13 +500,13 @@ header {
 }
 
 .card.pricing {
-    border: 3px solid #f1c40f;
+    border: 3px solid #10bbeb;
 }
 
 .card.pricing.popular {
     border-top-width: 3px;
-    border-color: #f1c40f #f1c40f #f1c40f;
-    color: #f1c40f;
+    border-color: #10bbeb #10bbeb #10bbeb;
+    color: #10bbeb;
 }
 
 .card.pricing .card-head {
@@ -518,7 +518,7 @@ header {
     display: block;
     font-size: 45px;
     font-weight: 300;
-    color: #f1c40f;
+    color: #10bbeb;
 	font-family: Impact, Charcoal, sans-serif;
 }
 
@@ -615,7 +615,7 @@ header {
 #customers td, #customers th {
   border: 1px solid #333333;
   padding: 8px;
-  color: #f1c40f;
+  color: #10bbeb;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -628,5 +628,3 @@ header {
   color: white;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
-
