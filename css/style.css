@@ -162,9 +162,9 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background-color: rgb(16, 187, 235);
-    background: -moz-linear-gradient(135deg, rgb(224, 185, 27) 0%, rgb(14, 162, 204) 100%);
-    background: -webkit-linear-gradient(135deg, rgb(14, 162, 204) 0%, rgb(224, 185, 27) 100%);
-    background: linear-gradient(135deg, rgb(14, 162, 204) 0%, rgb(224, 185, 27) 100%);
+    background: -moz-linear-gradient(135deg, rgb(32, 130, 179) 0%, rgb(14, 162, 204) 100%);
+    background: -webkit-linear-gradient(135deg, rgb(14, 162, 204) 0%, rgb(32, 130, 179) 100%);
+    background: linear-gradient(135deg, rgb(14, 162, 204) 0%, rgb(32, 130, 179) 100%);
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
